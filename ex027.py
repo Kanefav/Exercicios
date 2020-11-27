@@ -1,0 +1,5 @@
+nome = str(input('Digite seu nome completo: ')).upper().strip()
+nomelista = nome.split()
+nomelista2 = nome.rsplit()
+print(f'O seu primeiro nome é {nomelista[0].capitalize()}')
+print(f'E o seu ultimo nome é {nomelista2[len(nomelista2)-1].capitalize()}')
