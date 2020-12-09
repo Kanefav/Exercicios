@@ -11,4 +11,4 @@ nasceu = int(input('Em que ano vc nasceu? '))
 if votar(nasceu) == True:
     print(f'Com {idade} anos: Voto obrigatório')
 else:
-    print('KIDZIN KIDZAO ME DA UM MAMAO')
+    print(f'Com {idade} anos: Voto não obrigatório')
