@@ -1,4 +1,6 @@
-p = float(input('qual é o preço do produto? R$'))
-d = float(input('quanto é o desconto? % '))
-pd = (p * d) /100
-print(f'o produto que custava {p:.2f} como o desconto de {d:.2f} vai custar {pd:.2f}')
+preco = float(input('qual é o preço do produto? R$'))
+desconto = float(input('quanto é o desconto? % '))
+TempDesconto = preco*desconto / 100
+PrecoDesconto = preco - TempDesconto
+
+print(f'o produto que custava {preco:.2f} como o desconto de {desconto}% vai custar {PrecoDesconto:.2f}')
